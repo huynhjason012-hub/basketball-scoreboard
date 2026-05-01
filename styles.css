@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+}
+  
+.sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #374151;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.teams {
+    display: flex;
+    gap: 48px;          
+}
+
+.home-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.guest-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.home-title, .guest-title {
+    font-family: "SF pro";
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+
+#home-score, #guest-score {
+    font-family: 'Cursed Timer ULiL', sans-serif;                                         
+    font-size: 70px;
+    background-color: black;
+    border-radius: 15px;
+    padding: 15px 35px;
+    color: rgb(255, 71, 71);
+}
+
+button {
+    background-color: #374151;
+    padding: 15px 20px;
+    font-size: 25px;
+    color:rgb(142, 147, 187);
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.reset-btn {
+    margin-top: 20px;
+    width: 100%;
+}
+
